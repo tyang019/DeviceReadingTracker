@@ -60,8 +60,23 @@ DeviceReadingTracker
 DeviceTracker.Tests
 └── DeviceTests.cs
 
-Automated Testing
+## Project Structure
+
+```text
+DeviceReadingTracker
+├── Device.cs
+├── Reading.cs
+├── ReadingStatus.cs
+└── Program.cs
+
+DeviceTracker.Tests
+└── DeviceTests.cs
+```
+
+## Automated Testing
+
 The project includes five xUnit tests covering:
+
 1. Adding a valid reading
 2. Rejecting an invalid reading
 3. Classifying an in-range reading as Pass
@@ -69,24 +84,7 @@ The project includes five xUnit tests covering:
 5. Calculating the average of recorded readings
 
 Run the tests with:
+
+```bash
 dotnet test
-
-Example
-DEVICE READING TRACKER
-
-Device: Training Sensor
-Status: ONLINE
-
-1. Add reading
-2. View readings
-3. View summary
-4. Toggle device status
-5. Exit
-
-Example recorded readings:
-1. 55.5 - Pass
-2. 72.3 - Pass
-3. 91.0 - Review
-
-Disclaimer
-This is an educational software project using simulated device readings. It is not medical-device software and is not intended for clinical use.
+```
