@@ -59,18 +59,6 @@ DeviceReadingTracker
 
 DeviceTracker.Tests
 └── DeviceTests.cs
-
-## Project Structure
-
-```text
-DeviceReadingTracker
-├── Device.cs
-├── Reading.cs
-├── ReadingStatus.cs
-└── Program.cs
-
-DeviceTracker.Tests
-└── DeviceTests.cs
 ```
 
 ## Automated Testing
