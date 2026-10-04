@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="DeviceReadingTracker/DeviceReadingTracker.csproj" />
+  <Project Path="DeviceTracker.Tests/DeviceTracker.Tests.csproj" Id="0573ee12-a385-425b-8c52-c6cd3345b044" />
+</Solution>
