@@ -95,4 +95,20 @@ public class DeviceTests
         // Assert
         Assert.Equal(60, average);
     }
+    [Fact]
+    public void AddReading_NaN_ThrowsException()
+    {
+        // Arrange
+        Device device = new Device(
+            "DEV-001",
+            "Training Sensor"
+        );
+
+        // Act and Assert
+        Assert.Throws<ArgumentOutOfRangeException>(
+            () => device.AddReading(double.NaN)
+        );
+
+        Assert.Empty(device.Readings);
+    }
 }

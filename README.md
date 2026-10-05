@@ -63,13 +63,14 @@ DeviceTracker.Tests
 
 ## Automated Testing
 
-The project includes five xUnit tests covering:
+The project includes six xUnit tests covering:
 
 1. Adding a valid reading
 2. Rejecting an invalid reading
 3. Classifying an in-range reading as Pass
 4. Classifying an out-of-range reading as Review
 5. Calculating the average of recorded readings
+6. Rejecting NaN readings
 
 Run the tests with:
 

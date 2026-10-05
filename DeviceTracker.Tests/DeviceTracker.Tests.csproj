@@ -14,10 +14,9 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="3.1.4" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\DeviceReadingTracker\DeviceReadingTracker.csproj" />
-    <ProjectReference Include="..\DeviceReadingTracker\DeviceReadingTracker.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+	    <ProjectReference Include="..\DeviceReadingTracker\DeviceReadingTracker.csproj" />
+    </ItemGroup>
 
   <ItemGroup>
     <Using Include="Xunit" />
